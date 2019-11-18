@@ -1,23 +1,23 @@
 <!doctype html>
 <html>
   <head>
-    <title>Service Worker Example - Step 2</title>
+    <title>Service Worker Example - Step 3</title>
   </head>
   <body>
     <div>
       <span>Example page for Service Worker creation</span>
     </div>
     <div>
-      <span>This is the step 2.</span>
+      <span>This is the step 3.</span>
     </div>
     <div>
-      <span>Basic empty service worker</span>
+      <span>SW with offline</span>
     </div>
 
     <script type="text/javascript">
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-          .register('./sw.js', {scropt: '.'})
+          .register('./sw.js', {scope: '/'})
           .then((reg) => {
             console.log(reg);
           });
