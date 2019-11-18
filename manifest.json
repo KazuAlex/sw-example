@@ -1,0 +1,27 @@
+{
+  "short_name": "REX",
+  "name": "REX SPYRIT",
+  "theme_color": "#fed65c",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "Scope": "/",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/app-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/app-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/app-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html"
+}
